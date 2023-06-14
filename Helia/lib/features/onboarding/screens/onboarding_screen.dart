@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:helia/core/resources/colors.dart';
+import 'package:helia/core/resources/dimns.dart';
 import 'package:helia/core/resources/images.dart';
 import 'package:helia/core/resources/strings.dart';
 import 'package:helia/features/common/button.dart';
 import 'package:helia/features/onboarding/widgets/onboarding_widget.dart';
+import 'package:helia/features/registration/screens/sign_in_screen.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class OnboardingScreen extends StatefulWidget {
@@ -20,7 +22,27 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     AppImages.onboarding3,
   ];
 
+  bool isLastPage = false;
   final PageController _pageController = PageController();
+
+  onNext() {
+    _pageController.nextPage(
+      duration: const Duration(milliseconds: 500),
+      curve: Curves.easeIn,
+    );
+    if (isLastPage) {
+      Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const SignInScreen(),
+          ));
+    }
+  }
+
+  onSkip() {
+    _pageController.jumpToPage(2);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,6 +50,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         children: [
           PageView(
             controller: _pageController,
+            onPageChanged: (value) {
+              isLastPage = value == 2;
+            },
             children: List.generate(
               3,
               (index) => OnboardingBody(image: images[index]),
@@ -39,8 +64,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               controller: _pageController,
               count: 3,
               effect: const ExpandingDotsEffect(
-                dotWidth: 16,
-                dotHeight: 8,
+                dotWidth: AppDimns.medium,
+                dotHeight: AppDimns.small,
                 activeDotColor: AppColors.primary,
               ),
             ),
@@ -49,23 +74,16 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             alignment: const Alignment(0, 0.7),
             child: CustomButton(
               text: AppStrings.nextButton,
-              pressed: () {
-                _pageController.nextPage(
-                  duration: const Duration(milliseconds: 500),
-                  curve: Curves.easeIn,
-                );
-              },
+              pressed: onNext,
             ),
           ),
           Container(
             alignment: const Alignment(0, 0.85),
             child: CustomButton(
-              pressed: () {
-                _pageController.jumpToPage(2);
-              },
+              pressed: onSkip,
               text: AppStrings.skipButton,
-              color: AppColors.secondary,
-              textColor: AppColors.primary,
+              color: Theme.of(context).colorScheme.secondary,
+              textColor: Theme.of(context).colorScheme.tertiary,
             ),
           ),
         ],

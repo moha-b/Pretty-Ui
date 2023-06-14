@@ -12,9 +12,9 @@ class OnboardingBody extends StatelessWidget {
         Image.asset(image),
         Container(
           padding: const EdgeInsets.all(24),
-          child: const Text(
+          child: Text(
             AppStrings.onboardingText,
-            style: TextStyle(color: Colors.grey),
+            style: Theme.of(context).textTheme.bodySmall,
             textAlign: TextAlign.start,
           ),
         ),
