@@ -4,8 +4,8 @@ import 'package:helia/core/resources/dimns.dart';
 import 'package:helia/core/resources/images.dart';
 import 'package:helia/core/resources/strings.dart';
 import 'package:helia/features/common/button.dart';
+import 'package:helia/features/home/screens/home_screen.dart';
 import 'package:helia/features/onboarding/widgets/onboarding_widget.dart';
-import 'package:helia/features/registration/screens/sign_in_screen.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class OnboardingScreen extends StatefulWidget {
@@ -34,7 +34,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => const SignInScreen(),
+            builder: (context) => const HomeScreen(),
           ));
     }
   }
