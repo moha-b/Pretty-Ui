@@ -2,21 +2,20 @@ import 'package:flutter/material.dart';
 import 'package:helia/core/models/hotel_model.dart';
 import 'package:helia/core/resources/dimns.dart';
 import 'package:helia/core/resources/strings.dart';
+import 'package:helia/features/common/categories.dart';
 import 'package:helia/features/common/hotel_card_widget.dart';
-import 'package:helia/features/home/widgets/categories.dart';
+import 'package:helia/features/common/search_field_widget.dart';
 import 'package:helia/features/home/widgets/categroies_items_widget.dart';
-import 'package:helia/features/home/widgets/search_field_widget.dart';
 import 'package:helia/features/home/widgets/section_title.dart';
 
 class HomeBody extends StatelessWidget {
   const HomeBody({super.key});
-
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return SingleChildScrollView(
       child: Padding(
-        padding: const EdgeInsets.all(24.0),
+        padding: const EdgeInsets.all(AppDimns.big),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -42,7 +41,6 @@ class HomeBody extends StatelessWidget {
             const SectionTitle(),
             ListView.separated(
               physics: const NeverScrollableScrollPhysics(),
-              padding: const EdgeInsets.symmetric(horizontal: AppDimns.small),
               shrinkWrap: true,
               reverse: true,
               itemBuilder: (context, index) => HotelCard(
