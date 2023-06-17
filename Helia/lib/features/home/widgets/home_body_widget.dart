@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:helia/core/resources/colors.dart';
+import 'package:helia/core/models/hotel_model.dart';
 import 'package:helia/core/resources/dimns.dart';
 import 'package:helia/core/resources/strings.dart';
+import 'package:helia/features/common/hotel_card_widget.dart';
 import 'package:helia/features/home/widgets/categories.dart';
 import 'package:helia/features/home/widgets/categroies_items_widget.dart';
+import 'package:helia/features/home/widgets/search_field_widget.dart';
 import 'package:helia/features/home/widgets/section_title.dart';
-import 'package:iconsax/iconsax.dart';
 
 class HomeBody extends StatelessWidget {
   const HomeBody({super.key});
@@ -19,37 +20,39 @@ class HomeBody extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              AppStrings.welcomeText,
-              style: Theme.of(context).textTheme.displaySmall?.copyWith(
-                  color: Colors.black,
-                  fontWeight: FontWeight.w500,
-                  fontSize: 40),
-            ),
-            Container(
-              margin: const EdgeInsets.symmetric(vertical: AppDimns.medium),
-              padding: const EdgeInsets.all(AppDimns.small),
-              decoration: BoxDecoration(
-                color: AppColors.searchBackground,
-                borderRadius: BorderRadius.circular(AppDimns.medium),
-              ),
-              child: const TextField(
-                cursorColor: AppColors.primary,
-                decoration: InputDecoration(
-                  prefixIcon: Icon(Iconsax.search_normal),
-                  suffixIcon:
-                      Icon(Iconsax.setting_44, color: AppColors.primary),
-                  border: InputBorder.none,
-                  hintText: AppStrings.search,
+            Wrap(
+              children: [
+                Text(
+                  AppStrings.welcomeText,
+                  style: Theme.of(context).textTheme.displaySmall?.copyWith(
+                      color: Colors.black,
+                      fontWeight: FontWeight.w500,
+                      fontSize: 40),
                 ),
-              ),
+              ],
             ),
+            const SearchField(),
             SizedBox(
               height: size.height * 0.06,
               child: const Categories(),
             ),
-            CategoriesItems(),
-            SectionTitle(),
+            CategoriesItems(
+              hotels: hotels,
+            ),
+            const SectionTitle(),
+            ListView.separated(
+              physics: const NeverScrollableScrollPhysics(),
+              padding: const EdgeInsets.symmetric(horizontal: AppDimns.small),
+              shrinkWrap: true,
+              reverse: true,
+              itemBuilder: (context, index) => HotelCard(
+                size: size,
+                hotel: hotels[index],
+              ),
+              separatorBuilder: (context, index) =>
+                  const SizedBox(height: AppDimns.medium),
+              itemCount: hotels.length,
+            )
           ],
         ),
       ),
