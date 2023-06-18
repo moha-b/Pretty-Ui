@@ -9,13 +9,20 @@ class OnboardingBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Image.asset(image),
-        Container(
-          padding: const EdgeInsets.all(24),
-          child: Text(
-            AppStrings.onboardingText,
-            style: Theme.of(context).textTheme.bodySmall,
-            textAlign: TextAlign.start,
+        Image.asset(
+          image,
+          height: MediaQuery.of(context).size.height * 0.55,
+          width: double.infinity,
+          fit: BoxFit.cover,
+        ),
+        Expanded(
+          child: Container(
+            padding: const EdgeInsets.all(24),
+            child: Text(
+              AppStrings.onboardingText,
+              style: Theme.of(context).textTheme.bodySmall,
+              textAlign: TextAlign.start,
+            ),
           ),
         ),
       ],

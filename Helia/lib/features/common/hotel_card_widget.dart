@@ -47,37 +47,43 @@ class HotelCard extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  hotel.name,
-                  style: const TextStyle(
-                    color: Colors.black,
-                    fontSize: 20,
-                    fontWeight: FontWeight.w700,
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                ),
-                Text(
-                  hotel.country,
-                  style: const TextStyle(
-                    fontSize: 13,
-                    color: Colors.grey,
-                  ),
-                ),
-                Text.rich(
-                  TextSpan(
+                Expanded(
+                  child: Text(
+                    hotel.name,
                     style: const TextStyle(
-                      fontSize: 15,
-                      color: AppColors.primary,
+                      color: Colors.black,
+                      fontSize: 20,
+                      fontWeight: FontWeight.w700,
+                      overflow: TextOverflow.ellipsis,
                     ),
-                    text: "⭐ ${hotel.rate}",
-                    children: [
-                      TextSpan(
-                          style: const TextStyle(
-                            fontSize: 12,
-                            color: Colors.grey,
-                          ),
-                          text: " (${hotel.reviews})"),
-                    ],
+                  ),
+                ),
+                Expanded(
+                  child: Text(
+                    hotel.country,
+                    style: const TextStyle(
+                      fontSize: 13,
+                      color: Colors.grey,
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: Text.rich(
+                    TextSpan(
+                      style: const TextStyle(
+                        fontSize: 15,
+                        color: AppColors.primary,
+                      ),
+                      text: "⭐ ${hotel.rate}",
+                      children: [
+                        TextSpan(
+                            style: const TextStyle(
+                              fontSize: 12,
+                              color: Colors.grey,
+                            ),
+                            text: " (${hotel.reviews})"),
+                      ],
+                    ),
                   ),
                 ),
               ],
@@ -87,22 +93,28 @@ class HotelCard extends StatelessWidget {
           Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              Text(
-                hotel.price,
-                style: const TextStyle(
-                    color: AppColors.primary,
-                    fontSize: 20,
-                    fontWeight: FontWeight.w700),
-              ),
-              const Text(
-                "/ night",
-                style: TextStyle(
-                  fontSize: 12,
-                  color: Colors.grey,
+              Expanded(
+                child: Text(
+                  hotel.price,
+                  style: const TextStyle(
+                      color: AppColors.primary,
+                      fontSize: 20,
+                      fontWeight: FontWeight.w700),
                 ),
               ),
-              SvgPicture.asset(
-                hotel.icon ? AppImages.bookmarkFill : AppImages.bookmark,
+              const Expanded(
+                child: Text(
+                  "/ night",
+                  style: TextStyle(
+                    fontSize: 12,
+                    color: Colors.grey,
+                  ),
+                ),
+              ),
+              Expanded(
+                child: SvgPicture.asset(
+                  hotel.icon ? AppImages.bookmarkFill : AppImages.bookmark,
+                ),
               ),
             ],
           ),
