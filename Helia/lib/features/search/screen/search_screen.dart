@@ -16,7 +16,6 @@ class SearchScreen extends StatelessWidget {
       padding: const EdgeInsets.all(AppDimns.medium),
       child: Column(
         children: [
-          SizedBox(height: size.height * 0.06),
           const SearchField(),
           const Expanded(child: Categories()),
           const Expanded(
@@ -43,8 +42,11 @@ class SearchScreen extends StatelessWidget {
                 padding: EdgeInsets.zero,
                 shrinkWrap: true,
                 physics: BouncingScrollPhysics(),
-                itemBuilder: (context, index) =>
-                    HotelCard(size: size, hotel: hotels[index]),
+                itemBuilder: (context, index) => HotelCard(
+                      size: size,
+                      hotel: hotels[index],
+                      index: index,
+                    ),
                 separatorBuilder: (context, index) =>
                     const SizedBox(height: AppDimns.medium),
                 itemCount: hotels.length),

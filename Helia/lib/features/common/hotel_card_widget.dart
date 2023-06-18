@@ -10,9 +10,11 @@ class HotelCard extends StatelessWidget {
     super.key,
     required this.size,
     required this.hotel,
+    required this.index,
   });
   final Hotel hotel;
   final Size size;
+  final int index;
 
   @override
   Widget build(BuildContext context) {
@@ -33,7 +35,7 @@ class HotelCard extends StatelessWidget {
               child: AspectRatio(
                 aspectRatio: 1.1,
                 child: Image.asset(
-                  hotel.image,
+                  hotel.images[index],
                   fit: BoxFit.cover,
                 ),
               ),
