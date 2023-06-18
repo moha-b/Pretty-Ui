@@ -1,16 +1,32 @@
 # Helia
 
-Hotel Booking App UI
+<p float="left">
+  <img src="https://github.com/moha-b/Pretty-Ui/blob/main/Helia/ScreenShots/Group%201.png" width="200" />
+  -
+  <img src="https://github.com/moha-b/Pretty-Ui/blob/main/Helia/ScreenShots/Group%202.png" width="200" />
+  .
+  <img src="https://github.com/moha-b/Pretty-Ui/blob/main/Helia/ScreenShots/Group%203.png" width="200" />
+  .
+  <img src="https://github.com/moha-b/Pretty-Ui/blob/main/Helia/ScreenShots/Group%204.png" width="200" />
+</p>
 
-## Getting Started
+<br />
 
-This project is a starting point for a Flutter application.
+<p float="left">
+  <img src="https://github.com/moha-b/Pretty-Ui/blob/main/Helia/ScreenShots/Group%205.png" width="200" />
+  .
+  <img src="https://github.com/moha-b/Pretty-Ui/blob/main/Helia/ScreenShots/Group%206.png" width="200" /> 
+  .
+  <img src="https://github.com/moha-b/Pretty-Ui/blob/main/Helia/ScreenShots/Group%207.png" width="200" />
+  .
+  <img src="https://github.com/moha-b/Pretty-Ui/blob/main/Helia/ScreenShots/Group%208.png" width="200" />
+</p>
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Techniques used 🛠️
+<img align="right" width="130" src="https://github.com/moha-b/Pretty-Ui/blob/main/Helia/ScreenShots/Group%200.png" />
+  
+[flutter_svg](https://pub.dev/packages/flutter_svg) : straightforward and highly customizable widget designed specifically for displaying a svg images in Flutter.
+  
+[smooth_page_indicator](https://pub.dev/packages/smooth_page_indicator) : package that provides a customizable indicator for tracking the current page in a page view or carousel.
+  
+[iconsax](https://pub.dev/packages/iconsax) : versatile icon library designed to provide developers with a vast collection of high-quality icons for use in their web or mobile applications.
