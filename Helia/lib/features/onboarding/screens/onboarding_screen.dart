@@ -82,8 +82,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             child: CustomButton(
               pressed: onSkip,
               text: AppStrings.skipButton,
-              color: Theme.of(context).colorScheme.secondary,
-              textColor: Theme.of(context).colorScheme.tertiary,
+              color: AppColors.secondary,
+              textColor: AppColors.primary,
             ),
           ),
         ],

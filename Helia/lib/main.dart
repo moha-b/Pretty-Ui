@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:helia/features/home/screens/home_screen.dart';
+import 'package:helia/features/splash/screens/splash_screen1.dart';
 
 void main() {
   runApp(
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: SplashScreen1(),
     );
   }
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:helia/core/resources/colors.dart';
+import 'package:helia/core/resources/dimns.dart';
 
 class CustomButton extends StatelessWidget {
   final String text;
@@ -20,6 +21,8 @@ class CustomButton extends StatelessWidget {
     return ElevatedButton(
       onPressed: pressed,
       style: ElevatedButton.styleFrom(
+        shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(AppDimns.big)),
         fixedSize: Size(size.width * 0.85, size.height * 0.06),
         backgroundColor: color ?? AppColors.primary,
       ),
