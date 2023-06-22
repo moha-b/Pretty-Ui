@@ -68,7 +68,7 @@ class OnboardingScreen extends StatelessWidget {
           Navigator.pushReplacement(
               context,
               MaterialPageRoute(
-                builder: (context) => HomeScreen(),
+                builder: (context) => const HomeScreen(),
               ));
         },
         backgroundColor: Colors.pink,
