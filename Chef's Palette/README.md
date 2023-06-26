@@ -1,16 +1,18 @@
-# chef
+# Chef's Palette
 
-A new Flutter project.
+<p float="left">
+  <img src="https://github.com/moha-b/Pretty-Ui/blob/main/Chef's Palette/screenshots/Group%201.png" width="200" />
+  -
+  <img src="https://github.com/moha-b/Pretty-Ui/blob/main/Chef's Palette/screenshots/Group%202.png" width="200" />
+  -
+  <img src="https://github.com/moha-b/Pretty-Ui/blob/main/Chef's Palette/screenshots/Group%203.png" width="200" />
+</p>
+<p>
+  <img src="https://github.com/moha-b/Pretty-Ui/blob/main/Chef's Palette/screenshots/Group%204.png" width="200" />
+    -
+  <img src="https://github.com/moha-b/Pretty-Ui/blob/main/Chef's Palette/screenshots/Group%205.png" width="200" />
+</p>
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Techniques used 🛠️
+  
+[flutter_svg](https://pub.dev/packages/flutter_svg) : straightforward and highly customizable widget designed specifically for displaying a svg images in Flutter.
