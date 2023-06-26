@@ -7,11 +7,32 @@ import 'package:chef/features/onboarding/models/onboarding_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
+import 'onboarding_widget.dart';
+
 class OnboardingBody extends StatelessWidget {
   const OnboardingBody({super.key});
   @override
   Widget build(BuildContext context) {
     PageController controller = PageController();
+    bool isLastPage = false;
+    onNext() {
+      controller.nextPage(
+        duration: const Duration(milliseconds: 500),
+        curve: Curves.easeIn,
+      );
+      if (isLastPage) {
+        Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(
+              builder: (context) => const HomeScreen(),
+            ));
+      }
+    }
+
+    onSkip() {
+      controller.jumpToPage(2);
+    }
+
     return SafeArea(
       child: Padding(
         padding: const EdgeInsets.all(AppDimns.medium),
@@ -27,7 +48,7 @@ class OnboardingBody extends StatelessWidget {
                       SvgPicture.asset(AppImages.arrowLeft, fit: BoxFit.cover),
                 ),
                 InkWell(
-                  onTap: () {},
+                  onTap: () => onSkip(),
                   child: Container(
                     padding: const EdgeInsets.all(AppDimns.medium),
                     alignment: Alignment.centerRight,
@@ -39,48 +60,18 @@ class OnboardingBody extends StatelessWidget {
             Expanded(
               child: PageView.builder(
                   controller: controller,
-                  itemBuilder: (context, index) => Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Image.asset(onboardingList[index].image,
-                              height: getScreenHeight(360),
-                              width: double.infinity,
-                              fit: BoxFit.cover),
-                          SizedBox(height: getScreenHeight(AppDimns.big)),
-                          Flexible(
-                            child: Text(
-                              onboardingList[index].title,
-                              style: const TextStyle(
-                                  fontSize: 30,
-                                  wordSpacing: 2,
-                                  fontWeight: FontWeight.w700),
-                            ),
-                          ),
-                          SizedBox(height: getScreenHeight(AppDimns.medium)),
-                          Flexible(
-                            child: Text(
-                              onboardingList[index].description,
-                              style: TextStyle(
-                                  fontSize: 20,
-                                  wordSpacing: 2,
-                                  color: Colors.grey.shade800),
-                            ),
-                          ),
-                        ],
-                      ),
+                  onPageChanged: (value) {
+                    isLastPage = value == 2;
+                  },
+                  itemBuilder: (context, index) =>
+                      OnboardingWidget(onBoarding: onboardingList[index]),
                   itemCount: onboardingList.length),
             ),
             SizedBox(
               width: double.infinity,
               height: getScreenHeight(50),
               child: OutlinedButton(
-                  onPressed: () {
-                    Navigator.pushReplacement(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => const HomeScreen(),
-                        ));
-                  },
+                  onPressed: () => onNext(),
                   child: const Text(
                     "Next",
                     style: TextStyle(fontSize: 20, color: Colors.black),
