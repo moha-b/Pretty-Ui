@@ -1,0 +1,63 @@
+name: door_hub
+description: A new Flutter project.
+repository: https://github.com/moha-b/Pretty-Ui
+authors:
+  - moha-b
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get:
+  flutter_svg:
+  google_fonts:
+  smooth_page_indicator:
+  flutter_launcher_icons:
+  flutter_native_splash:
+  table_calendar:
+  intl:
+  carousel_slider:
+  credit_card_scanner:
+  showcaseview:
+  animations:
+  get_storage:
+  flutter_screenutil:
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
