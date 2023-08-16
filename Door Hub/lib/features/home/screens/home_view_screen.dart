@@ -5,7 +5,6 @@ import 'package:door_hub/features/home/screens/widgets/search_field.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:showcaseview/showcaseview.dart';
 
 import '../../../core/common/buttons/custom_button.dart';
 import '../../../core/common/containers/primary_container.dart';
@@ -28,14 +27,6 @@ class _HomeScreenState extends State<HomeScreen> {
   final GlobalKey _one = GlobalKey();
   final GlobalKey _two = GlobalKey();
   final TextEditingController _searchController = TextEditingController();
-
-  @override
-  void initState() {
-    ambiguate(WidgetsBinding.instance)?.addPostFrameCallback(
-      (_) => ShowCaseWidget.of(context).startShowCase([_one, _two]),
-    );
-    super.initState();
-  }
 
   @override
   Widget build(BuildContext context) {

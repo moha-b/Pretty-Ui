@@ -24,7 +24,6 @@ dependencies:
   intl:
   carousel_slider:
   credit_card_scanner:
-  showcaseview:
   animations:
   get_storage:
   flutter_screenutil:
