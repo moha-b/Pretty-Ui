@@ -1,0 +1,60 @@
+name: eden
+description: A new Flutter project.
+repository: https://github.com/moha-b/Pretty-Ui
+authors:
+  - moha-b
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get:
+  cupertino_icons: ^1.0.2
+  flutter_screenutil:
+  flutter_svg:
+  surf_lint_rules:
+  smooth_page_indicator:
+  animate_do:
+  flutter_swipe_button:
+  confetti:
+  flutter_staggered_animations:
+  fl_chart:
+  flutter_native_splash: ^2.3.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter_native_splash:
+  image: assets/images/logo.png
+  color: "EDEFF4"
+  fullscreen: true
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: Hanken Grotesk
+      fonts:
+        - asset: assets/fonts/HankenGrotesk-Regular.ttf
+        - asset: assets/fonts/HankenGrotesk-Bold.ttf
+        - asset: assets/fonts/HankenGrotesk-ExtraLight.ttf
+        - asset: assets/fonts/HankenGrotesk-Light.ttf
+        - asset: assets/fonts/HankenGrotesk-Medium.ttf

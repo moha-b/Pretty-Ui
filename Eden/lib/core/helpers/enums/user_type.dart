@@ -1,0 +1,1 @@
+enum UserType { teacher, student }
