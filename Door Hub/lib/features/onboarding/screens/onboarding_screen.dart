@@ -2,6 +2,7 @@ import 'package:door_hub/features/onboarding/screens/widgets/next_button.dart';
 import 'package:door_hub/features/onboarding/screens/widgets/onboarding_card.dart';
 import 'package:door_hub/features/onboarding/screens/widgets/skip_button.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
@@ -21,6 +22,11 @@ class OnboardingScreen extends StatefulWidget {
 class OnboardingScreenState extends State<OnboardingScreen> {
   int _currentPageIndex = 0;
   final _pageController = PageController();
+  @override
+  void initState() {
+    FlutterNativeSplash.remove();
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
