@@ -1,0 +1,1 @@
+enum PaymentViewEnum{paymentDetails,addPaymentCard}

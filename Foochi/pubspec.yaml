@@ -1,0 +1,58 @@
+name: foochi
+repository: https://github.com/moha-b/Pretty-Ui
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get:
+  flutter_screenutil:
+  google_fonts:
+  flutter_launcher_icons:
+  flutter_native_splash:
+  animate_do:
+  dots_indicator:
+  flutter_svg:
+  card_swiper:
+  like_button:
+  flutter_staggered_animations:
+  flutter_slidable:
+  simple_animations:
+  image_stack:
+  flutter_rating_bar:
+  flutter_easyloading:
+  image_picker:
+  cupertino_icons:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_native_splash:
+  image: assets/images/splash.png
+  color: "FFF5E0"
+  fullscreen: true
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/images/logo.png"
+  image_path_ios: "assets/images/logo.png"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+
