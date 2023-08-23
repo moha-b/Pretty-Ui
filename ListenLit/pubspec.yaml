@@ -1,0 +1,73 @@
+name: listenlit
+description: A new Flutter project.
+repository: https://github.com/moha-b/Pretty-Ui
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_screenutil:
+  flutter_svg:
+  dots_indicator:
+  get:
+  oktoast:
+  image_picker:
+  google_fonts:
+  blur:
+  audioplayers:
+  flutter_launcher_icons:
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/images/ListenLitlogo.png"
+  image_path_ios: "assets/images/ListenLitlogo.png"
+
+
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/audio/
+    - assets/icons/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/static/Inter-Regular.ttf
+        - asset: assets/fonts/static/Inter-Black.ttf
+        - asset: assets/fonts/static/Inter-Bold.ttf
+        - asset: assets/fonts/static/Inter-ExtraBold.ttf
+        - asset: assets/fonts/static/Inter-ExtraLight.ttf
+        - asset: assets/fonts/static/Inter-Light.ttf
+        - asset: assets/fonts/static/Inter-Medium.ttf
+        - asset: assets/fonts/static/Inter-SemiBold.ttf
+        - asset: assets/fonts/static/Inter-Thin.ttf
+    - family: Gotham
+      fonts:
+        - asset: assets/fonts/Gotham-Font/GothamBold.ttf
+        - asset: assets/fonts/Gotham-Font/GothamBoldItalic.ttf
+        - asset: assets/fonts/Gotham-Font/GothamBook.ttf
+        - asset: assets/fonts/Gotham-Font/GothamBookItalic.ttf
+        - asset: assets/fonts/Gotham-Font/GothamLight.ttf
+        - asset: assets/fonts/Gotham-Font/GothamLightItalic.ttf
+        - asset: assets/fonts/Gotham-Font/GothamMedium_1.ttf
+        - asset: assets/fonts/Gotham-Font/GothamMedium.ttf
+        - asset: assets/fonts/Gotham-Font/GothamMediumItalic.ttf
