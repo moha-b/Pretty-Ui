@@ -7,14 +7,15 @@ Each application in this collection is a work of art, the result of a combinatio
 
 <br/>
 
-## [DoorHub](Door%20Hub/) - Home Service Ui Kit
-![door_hub_mockup](.github/images/door_hub/banner.png)
+> **Note**  
+> *1 - To get more information, click on the icons.*                                
+> *2 - The icons that have the Flutter logo are up to `Flutter UI dev`*
 
-### Highlight
-![door_hub_highlight](.github/images/door_hub/highlight.png)
-
-
-<br/>
-
-## [Edan](https://github.com/moha-b/Pretty-Ui/blob/main/Eden/README.md) - Education Ui Kit
-[![edan_mockup](https://github.com/moha-b/Pretty-Ui/blob/main/Eden/screenshots/Mockup.jpg)](https://github.com/moha-b/Pretty-Ui/releases/tag/edan)
+## Applications 🚀
+[<img src=".github/images/door_hub_logo.png" width="100" height="100"/>](Door%20Hub/)
+[<img src=".github/images/eden_logo.png" width="100" height="100"/>](Eden/)
+[<img src=".github/images/foochi_logo.png" width="100" height="100"/>](Foochi/)
+[<img src=".github/images/listenlit_logo.png" width="100" height="100"/>](ListenLit/)
+[<img src=".github/images/ngamar_logo.png" width="100" height="100"/>](Ngamar/)
+[<img src=".github/images/featured_logo.png" width="100" height="100"/>](Featured/)
+[<img src=".github/images/groceries_logo.png" width="100" height="100"/>](Groceries/)
