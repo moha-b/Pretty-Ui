@@ -1,0 +1,35 @@
+name: featured
+description: A new Flutter project.
+repository: https://github.com/moha-b/Pretty-Ui
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  expandable_page_view: ^1.0.17
+  smooth_page_indicator: ^1.0.0+2
+  flutter_bloc: ^8.1.1
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+# The following section is specific to Flutter packages.
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+  #   - images/a_dot_ham.jpeg
