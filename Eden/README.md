@@ -1,5 +1,11 @@
-# Eden
+# Eden <img src="screenshots/eden_logo.png" width="100" height="100" align="right" />
+
+<img src="screenshots/Mockup.png">
+
 Learn Eden is a premium UI kit consists of 30+ screens you can use on your next learning/teaching app. This UI Kit uses reusable components and smart layout with constraints so you can use it on any screen size.
+
+## Highlight ⚡
+![edan](screenshots/Heighlight.png)
 
 
 ## Screens
@@ -27,3 +33,7 @@ Learn Eden is a premium UI kit consists of 30+ screens you can use on your next 
 - [flutter_svg](https://pub.dev/packages/flutter_svg) - An SVG rendering and widget library for Flutter, which allows painting and displaying Scalable Vector Graphics 1.1 files.
 - [confetti](https://pub.dev/packages/confetti) - Blast some confetti all over the screen and celebrate user achievements!
 - [fl_chart](https://pub.dev/packages/fl_chart) - A highly customizable Flutter chart library that supports Line Chart, Bar Chart, Pie Chart, Scatter Chart, and Radar Chart.
+
+---
+
+<img src="screenshots/figma_not_available.png" width="80"> <img src="screenshots/dribbble_not_available.png" width="100"> <img src="screenshots/flutter_ui_dev_not_available.png" width="110"> [<img src="screenshots/behance.png" width="110">](https://www.behance.net/gallery/109551783/Learn-Eden-Education-UI-Kit)
