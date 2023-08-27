@@ -1,7 +1,15 @@
-# Door Hub
+# Door Hub <img src="screenshots/door_hub_logo.png" width="60" height="60" align="right" />
+
+<img src="screenshots/Mockup.png">
+
 It is a Home Service Mobile App UI Kit with a clean and modern style. The kit is available in light and dark mode including global color and font style. DoorHub gives you a well-layered method, pixel-perfect design, free unique font, and supporting organized components to make it easier. 100% vector editable and scalable.
 
-## Screens
+## Highlight ⚡
+![door_hub](screenshots/door_hub_highlight.png)
+![colors](screenshots/colors.png)
+
+
+## Screens 📱
 ![Frame_1](screenshots/Frame_1.png)
 ![Frame_2](screenshots/Frame_2.png)
 ![Frame_3](screenshots/Frame_3.png)
@@ -27,3 +35,9 @@ It is a Home Service Mobile App UI Kit with a clean and modern style. The kit is
 - [carousel_slider](https://pub.dev/packages/carousel_slider) - simple customizable widget for displaying a sequence of images.
 - [flutter_svg](https://pub.dev/packages/flutter_svg) - An SVG rendering and widget library for Flutter, which allows painting and displaying Scalable Vector Graphics 1.1 files.
 - [credit_card_scanner](https://pub.dev/packages/credit_card_scanner) - A flutter plugin for accurately and quickly scanning debit and credit cards.
+
+---
+[<img src="screenshots/figma.png" width="80">](https://www.figma.com/community/file/1080768549451892743)
+[<img src="screenshots/dribbble.png" width="100">](https://dribbble.com/shots/17630833-DoorHub-Home-Service-UI-Kit)
+<img src="screenshots/flutter_ui_dev_not_available.png" width="120">
+<img src="screenshots/behance_not_available.png" width="140">
