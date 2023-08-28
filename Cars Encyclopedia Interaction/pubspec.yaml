@@ -1,0 +1,63 @@
+name: cars_encyclopedia_interaction
+description: A new Flutter project.
+repository: https://github.com/moha-b/Pretty-Ui
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  animated_theme_switcher:
+  animations:
+  card_slider:
+  carousel_slider:
+  flutter_animate:
+  flutter_card_swiper:
+  flutter_launcher_icons:
+  flutter_native_splash:
+  google_fonts:
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons:
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+  remove_alpha_ios: true
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: "assets/icon.png"
+  fill: false
+  fullscreen: true
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+
+  assets:
+    - assets/
+    - assets/font/
+  fonts:
+    - family: Plus Jakarta Sans
+      fonts:
+        - asset: assets/font/PlusJakartaSans-Bold.ttf
+        - asset: assets/font/PlusJakartaSans-Regular.ttf
+        - asset: assets/font/PlusJakartaSans-SemiBold.ttf
+        - asset: assets/font/PlusJakartaSans-Medium.ttf
+        - asset: assets/font/PlusJakartaSans-Light.ttf
+        - asset: assets/font/PlusJakartaSans-ExtraLight.ttf
