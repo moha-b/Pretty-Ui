@@ -1,13 +1,34 @@
-# Door Hub <img src="screenshots/door_hub_logo.png" width="60" height="60" align="right" />
+[<img src="screenshots/app_logo.png"/>]()
+
+# Door Hub 
 
 <img src="screenshots/Mockup.png">
 
 It is a Home Service Mobile App UI Kit with a clean and modern style. The kit is available in light and dark mode including global color and font style. DoorHub gives you a well-layered method, pixel-perfect design, free unique font, and supporting organized components to make it easier. 100% vector editable and scalable.
 
 ## Highlight ⚡
-![door_hub](screenshots/door_hub_highlight.png)
-![colors](screenshots/colors.png)
+![edan](screenshots/Heighlight.png)
 
+## Colors 🎨
+
+<br/>
+<img width="120" align="left" src="screenshots/color1.png"/>
+<img width="120" align="left" src="screenshots/color2.png"/>
+<img width="120" align="left" src="screenshots/color3.png"/>
+<img width="120" align="left" src="screenshots/color4.png"/>
+<img width="120" align="left" src="screenshots/color5.png"/>
+<img width="120" align="left" src="screenshots/color6.png"/>
+<img width="120" align="left" src="screenshots/color7.png"/>
+<img width="120" align="left" src="screenshots/color8.png"/>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Screens 📱
 ![Frame_1](screenshots/Frame_1.png)
@@ -15,6 +36,7 @@ It is a Home Service Mobile App UI Kit with a clean and modern style. The kit is
 ![Frame_3](screenshots/Frame_3.png)
 ![Frame_4](screenshots/Frame_4.png)
 
+<br>
 
 ## Techniques used 🛠️
 
