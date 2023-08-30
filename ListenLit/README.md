@@ -1,5 +1,36 @@
-# ListenLit
-It is a Home Service Mobile App UI Kit with a clean and modern style. The kit is available in light and dark mode including global color and font style. DoorHub gives you a well-layered method, pixel-perfect design, free unique font, and supporting organized components to make it easier. 100% vector editable and scalable.
+[<img src="screenshots/app_logo.png"/>]()
+
+
+# ListenLit - Online book reading and listening mobile application
+
+<img src="screenshots/Mockup.png">
+
+ListenLit is a mobile application that allows you to read and listen to books online
+You will find thousands of books in audio and text formats, with easy-to-use features and an intuitive interface that makes it easy to use any book.
+We really hope you enjoy it.
+
+## Highlight ⚡
+![listenlit](screenshots/Heighlight.png)
+
+## Colors 🎨
+
+<br/>
+<img width="120" align="left" src="screenshots/color1.png"/>
+<img width="120" align="left" src="screenshots/color2.png"/>
+<img width="120" align="left" src="screenshots/color3.png"/>
+<img width="120" align="left" src="screenshots/color4.png"/>
+<img width="120" align="left" src="screenshots/color5.png"/>
+<img width="120" align="left" src="screenshots/color6.png"/>
+<img width="120" align="left" src="screenshots/color7.png"/>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Screens
 ![Frame_1](screenshots/Frame_1.jpg)
@@ -24,3 +55,7 @@ It is a Home Service Mobile App UI Kit with a clean and modern style. The kit is
 - [oktoast](https://pub.dev/packages/oktoast) -  Pure flutter toast library, support custom style/widget, easy achieve the same effect with native toasts.
 - [blur](https://pub.dev/packages/blur) -  Blur is a wrapper widget that blur it's child. There are ImageBlur.asset and ImageBlur.network that blur the image. Frost is another wrapper which blurs the background.
 - [audioplayers](https://pub.dev/packages/audioplayers) -  A Flutter plugin to play multiple audio files simultaneously
+
+---
+
+<img src="screenshots/figma_not_available.png" width="110"> [<img src="screenshots/dribbble.png" width="100">](https://dribbble.com/shots/21314810-ListenLit-Online-book-reading-and-listening-mobile-application) <img src="screenshots/flutter_ui_dev_not_available.png" width="120"> <img src="screenshots/behance_not_available.png" width="140">
