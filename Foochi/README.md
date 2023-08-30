@@ -1,9 +1,32 @@
-# Foochi - Food Delivery App UI  <img src="screenshots/foochi_logo.png" width="100" height="100" align="right" />
-![foochi](screenshots/mockup.jpg)
+[<img src="screenshots/app_logo.png"/>]()
+
+# Foochi - Food Delivery App UI 
+<img src="screenshots/Mockup.png">
+
 Foochi is a productivity app iOS UI Kit for Figma, XD and Photoshop. Professional application for online travel booking service. Designed with clean screen design trends. This modern design template is easy to customize. 
 
 ## Highlight ⚡
 ![foochi](screenshots/Heighlight.png)
+
+## Colors 🎨
+
+<br/>
+<img width="120" align="left" src="screenshots/color1.png"/>
+<img width="120" align="left" src="screenshots/color2.png"/>
+<img width="120" align="left" src="screenshots/color3.png"/>
+<img width="120" align="left" src="screenshots/color4.png"/>
+<img width="120" align="left" src="screenshots/color5.png"/>
+<img width="120" align="left" src="screenshots/color6.png"/>
+<img width="120" align="left" src="screenshots/color7.png"/>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Screens 📱
 ![Frame_1](screenshots/Frame_1.jpg)
@@ -11,6 +34,8 @@ Foochi is a productivity app iOS UI Kit for Figma, XD and Photoshop. Professiona
 ![Frame_3](screenshots/Frame_3.jpg)
 ![Frame_4](screenshots/Frame_4.jpg)
 
+
+<br>
 
 ## Techniques used 🛠️
 
