@@ -1,11 +1,23 @@
-# Eden <img src="screenshots/eden_logo.png" width="100" height="100" align="right" />
+[<img src="screenshots/app_logo.png"/>]()
 
+# Eden
 <img src="screenshots/Mockup.png">
 
-Learn Eden is a premium UI kit consists of 30+ screens you can use on your next learning/teaching app. This UI Kit uses reusable components and smart layout with constraints so you can use it on any screen size.
+Learn Eden is a premium UI kit consists of 20 screens you can use on your next learning/teaching app. This UI Kit uses reusable components and smart layout with constraints so you can use it on any screen size.
 
 ## Highlight ⚡
 ![edan](screenshots/Heighlight.png)
+
+## Colors 🎨
+<img width="120" src="screenshots/color1.png"/>
+<img width="120" src="screenshots/color2.png"/>
+<img width="120" src="screenshots/color3.png"/>
+<img width="120" src="screenshots/color4.png"/>
+<img width="120" src="screenshots/color5.png"/>
+<img width="120" src="screenshots/color6.png"/>
+<img width="120" src="screenshots/color7.png"/>
+<img width="120" src="screenshots/color8.png"/>
+
 
 
 ## Screens
