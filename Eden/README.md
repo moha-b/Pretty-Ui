@@ -9,6 +9,8 @@ Learn Eden is a premium UI kit consisting of 20 screens you can use on your next
 ![edan](screenshots/Heighlight.png)
 
 ## Colors 🎨
+
+<br/>
 <img width="120" align="left" src="screenshots/color.png"/>
 <img width="120" align="left" src="screenshots/color2.png"/>
 <img width="120" align="left" src="screenshots/color3.png"/>
@@ -18,16 +20,25 @@ Learn Eden is a premium UI kit consisting of 20 screens you can use on your next
 <img width="120" align="left" src="screenshots/color7.png"/>
 <img width="120" align="left" src="screenshots/color8.png"/>
 
-<br>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 
-
 ## Screens
+<br/>
+
 ![Frame_1](screenshots/Frame_1.png)
 ![Frame_2](screenshots/Frame_2.png)
 ![Frame_3](screenshots/Frame_3.png)
 ![Frame_4](screenshots/Frame_4.png)
 
+
+<br/>
 
 ## Techniques used 🛠️
 
