@@ -1,5 +1,32 @@
-# Ngamar
-It is a Home Service Mobile App UI Kit with a clean and modern style. The kit is available in light and dark mode including global color and font style. DoorHub gives you a well-layered method, pixel-perfect design, free unique font, and supporting organized components to make it easier. 100% vector editable and scalable.
+[<img src="screenshots/app_logo.png"/>]()
+
+# Ngamar - Furniture App UI Kit
+
+<img src="screenshots/Mockup.png">
+
+Ngamar is a High Quality UI Kit of an Furniture Mobile App UI Kit. Ngamar came with a modern minimalistic design. The kit has been equipped with grouping and naming for each group so that you can edit it more easily.
+
+## Highlight ⚡
+![listenlit](screenshots/Heighlight.png)
+
+## Colors 🎨
+
+<br/>
+<img width="120" align="left" src="screenshots/color1.png"/>
+<img width="120" align="left" src="screenshots/color2.png"/>
+<img width="120" align="left" src="screenshots/color3.png"/>
+<img width="120" align="left" src="screenshots/color4.png"/>
+<img width="120" align="left" src="screenshots/color5.png"/>
+<img width="120" align="left" src="screenshots/color6.png"/>
+<img width="120" align="left" src="screenshots/color7.png"/>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Screens
 ![Frame_1](screenshots/Frame_1.jpg)
@@ -27,3 +54,9 @@ It is a Home Service Mobile App UI Kit with a clean and modern style. The kit is
 - [flutter_staggered_animations](https://pub.dev/packages/flutter_staggered_animations) - Easily add staggered animations to your `ListView`, `GridView`, `Column` and `Row`.
 - [blur](https://pub.dev/packages/blur) -  Blur is a wrapper widget that blur it's child. There are ImageBlur.asset and ImageBlur.network that blur the image. Frost is another wrapper which blurs the background.
 - [audioplayers](https://pub.dev/packages/audioplayers) -  A Flutter plugin to play multiple audio files simultaneously
+
+---
+
+<img src="screenshots/figma_not_available.png" width="110"> <img src="screenshots/dribbble_not_available.png" width="120"> <img src="screenshots/flutter_ui_dev_not_available.png" width="120"> <img src="screenshots/behance_not_available.png" width="140">
+
+UI Reference : [Ui8](https://ui8.net/majeng-karya-c3e03b/products/ngamar---furniture-app-ui-kit)
