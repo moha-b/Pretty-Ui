@@ -1,6 +1,6 @@
-[<img src="screenshots/app_logo.png"/>]()
+[<img src="screenshots/app_logo.png"/>](https://github.com/moha-b/Pretty-Ui/releases/tag/doorhub)
 
-# Door Hub 
+# Door Hub - Home Service UI
 
 <img src="screenshots/Mockup.png">
 
@@ -11,7 +11,7 @@ It is a Home Service Mobile App UI Kit with a clean and modern style. The kit is
 
 ## Colors 🎨
 
-<br/>
+<br>
 <img width="120" align="left" src="screenshots/color1.png"/>
 <img width="120" align="left" src="screenshots/color2.png"/>
 <img width="120" align="left" src="screenshots/color3.png"/>
@@ -27,8 +27,7 @@ It is a Home Service Mobile App UI Kit with a clean and modern style. The kit is
 <br>
 <br>
 <br>
-<br>
-<br>
+
 
 ## Screens 📱
 ![Frame_1](screenshots/Frame_1.png)
