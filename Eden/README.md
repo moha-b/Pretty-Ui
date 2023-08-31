@@ -1,4 +1,4 @@
-[<img src="screenshots/app_logo.png"/>]()
+[<img src="screenshots/app_logo.png"/>](https://github.com/moha-b/Pretty-Ui/releases/tag/edan)
 
 # Eden
 <img src="screenshots/Mockup.png">
@@ -18,7 +18,6 @@ Learn Eden is a premium UI kit consisting of 20 screens you can use on your next
 <img width="120" align="left" src="screenshots/color5.png"/>
 <img width="120" align="left" src="screenshots/color6.png"/>
 <img width="120" align="left" src="screenshots/color7.png"/>
-<img width="120" align="left" src="screenshots/color8.png"/>
 
 
 <br/>
