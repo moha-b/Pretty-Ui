@@ -1,8 +1,8 @@
-[<img src="screenshots/app_logo.png"/>]()
+[<img src="screenshots/app_logo.png"/>](https://github.com/moha-b/Pretty-Ui/releases/tag/featured)
 
 # Featured - The Color of Food 
 
-
+![](https://github.com/moha-b/Pretty-Ui/blob/main/Featured/screenshots/video.gif)
 
 ## Techniques used 🛠️
 
