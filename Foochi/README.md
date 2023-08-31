@@ -1,4 +1,4 @@
-[<img src="screenshots/app_logo.png"/>]()
+[<img src="screenshots/app_logo.png"/>](https://github.com/moha-b/Pretty-Ui/releases/tag/foochi)
 
 # Foochi - Food Delivery App UI 
 <img src="screenshots/Mockup.png">
