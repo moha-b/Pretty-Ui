@@ -1,16 +1,19 @@
-# featured
+# Featured - The Color of Food 
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Techniques used 🛠️
 
-A few resources to get you started if this is your first Flutter project:
+<img width="300" align="right" src="screenshots/logo.png" alt="preview" />
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Minimum SDK level 21
+- Architecture
+    - MVC
+- [smooth_page_indicator](https://pub.dev/packages/smooth_page_indicator) - Customizable animated page indicator with a set of built-in effects.
+- [expandable_page_view](https://pub.dev/packages/expandable_page_view) - A PageView widget adjusting its height to currently displayed page. It accepts the same parameters as classic PageView.
+- [flutter_bloc](https://pub.dev/packages/flutter_bloc) - Widgets that make it easy to integrate blocs and cubits into Flutter. Built to work with package:bloc.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+---
+
+<img src="screenshots/figma_not_available.png" width="110"> [<img src="screenshots/dribbble.png" width="100">](https://dribbble.com/shots/5498145-Day2-The-color-of-food-Motion-Gif2) [<img src="screenshots/flutter_ui_dev.png" width="120">](https://www.flutteruidev.tech/ui-challenges/flutter-ui-challenge-16) <img src="screenshots/behance_not_available.png" width="140">
