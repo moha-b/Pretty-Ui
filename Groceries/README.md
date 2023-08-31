@@ -1,16 +1,16 @@
 # groceries
 
-A new Flutter project.
+[<img src="screenshots/app_logo.png"/>](https://github.com/moha-b/Pretty-Ui/releases/tag/groceries)
 
-## Getting Started
+# Featured - The Color of Food 
 
-This project is a starting point for a Flutter application.
+![](screenshots/video.gif)
 
-A few resources to get you started if this is your first Flutter project:
+## Techniques used 🛠️
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+null
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+---
+
+<img src="screenshots/figma_not_available.png" width="110"> [<img src="screenshots/dribbble.png" width="100">](https://dribbble.com/shots/6120171-Groceries-Shopping-App-Interaction) [<img src="screenshots/flutter_ui_dev.png" width="120">](https://www.flutteruidev.tech/ui-challenges/flutter-ui-challenge-15) <img src="screenshots/behance_not_available.png" width="140">
