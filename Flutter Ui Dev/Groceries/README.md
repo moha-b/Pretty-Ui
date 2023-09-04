@@ -1,14 +1,9 @@
-# groceries
 
 [<img src="screenshots/app_logo.png"/>](https://github.com/moha-b/Pretty-Ui/releases/tag/groceries)
 
-# Featured - The Color of Food 
+# Groceries - Shopping App Interaction
 
 ![](screenshots/video.gif)
-
-## Techniques used 🛠️
-
-null
 
 
 ---

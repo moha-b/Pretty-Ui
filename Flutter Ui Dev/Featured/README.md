@@ -2,7 +2,7 @@
 
 # Featured - The Color of Food 
 
-![](https://github.com/moha-b/Pretty-Ui/blob/main/Featured/screenshots/video.gif)
+![](screenshots/video.gif)
 
 ## Techniques used 🛠️
 

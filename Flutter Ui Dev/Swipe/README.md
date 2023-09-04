@@ -1,6 +1,6 @@
 [<img src="screenshots/app_logo.png"/>](https://github.com/moha-b/Pretty-Ui/releases/tag/swipe)
 
-# swipe
+# Swipe - Tinder for books
 
 ![](screenshots/video.gif)
 
