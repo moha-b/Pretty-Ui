@@ -1,0 +1,2 @@
+# Flutter UI Dev
+The Flutter UI Dev newsletter includes a design challenge every Saturday. This [challenge](https://www.flutteruidev.tech/ui-challenges) allows developers to test their Flutter skills by implementing a provided UI design. It's a great opportunity to practice and improve your Flutter development abilities.
