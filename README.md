@@ -17,5 +17,3 @@ Each application in this collection is a work of art, the result of a combinatio
 [<img src=".github/images/foochi_logo.png" width="100" height="100"/>](Foochi/)
 [<img src=".github/images/listenlit_logo.png" width="100" height="100"/>](ListenLit/)
 [<img src=".github/images/ngamar_logo.png" width="100" height="100"/>](Ngamar/)
-[<img src=".github/images/featured_logo.png" width="100" height="100"/>](Featured/)
-[<img src=".github/images/groceries_logo.png" width="100" height="100"/>](Groceries/)
