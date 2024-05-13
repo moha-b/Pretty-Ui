@@ -7,13 +7,20 @@ Each application in this collection is a work of art, the result of a combinatio
 
 <br/>
 
-> **Note**  
-> *1 - To get more information, click on the icons.*                                
-> *2 - The icons that have the Flutter logo are up to `Flutter UI dev`*
 
-## Applications 🚀
-[<img src=".github/images/door_hub_logo.png" width="100" height="100"/>](Door%20Hub/)
-[<img src=".github/images/eden_logo.png" width="100" height="100"/>](Eden/)
-[<img src=".github/images/foochi_logo.png" width="100" height="100"/>](Foochi/)
-[<img src=".github/images/listenlit_logo.png" width="100" height="100"/>](ListenLit/)
-[<img src=".github/images/ngamar_logo.png" width="100" height="100"/>](Ngamar/)
+<div align="center"><h1>🌟 Applications 🌟</h1></div>
+
+<br/>
+
+### Door Hub - Home Service UI
+
+![image](https://github.com/moha-b/Pretty-Ui/assets/73842931/858a1edc-40a3-440e-8886-947760b158d3)
+
+<img width="120" align="left" src="Door%20Hub/screenshots/color1.png"/>
+<img width="120" align="left" src="Door%20Hub/screenshots/color2.png"/>
+<img width="120" align="left" src="Door%20Hub/screenshots/color3.png"/>
+<img width="120" align="left" src="Door%20Hub/screenshots/color4.png"/>
+<img width="120" align="left" src="Door%20Hub/screenshots/color5.png"/>
+<img width="120" align="left" src="Door%20Hub/screenshots/color6.png"/>
+
+
