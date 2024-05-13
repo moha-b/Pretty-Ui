@@ -15,12 +15,13 @@ Each application in this collection is a work of art, the result of a combinatio
 ### Door Hub - Home Service UI
 
 ![image](https://github.com/moha-b/Pretty-Ui/assets/73842931/858a1edc-40a3-440e-8886-947760b158d3)
+<div align="center">
+<img width="120"  src="Door%20Hub/screenshots/color1.png"/>
+<img width="120"  src="Door%20Hub/screenshots/color2.png"/>
+<img width="120"  src="Door%20Hub/screenshots/color3.png"/>
+<img width="120"  src="Door%20Hub/screenshots/color4.png"/>
+<img width="120"  src="Door%20Hub/screenshots/color5.png"/>
+</div>
 
-<img width="120" align="left" src="Door%20Hub/screenshots/color1.png"/>
-<img width="120" align="left" src="Door%20Hub/screenshots/color2.png"/>
-<img width="120" align="left" src="Door%20Hub/screenshots/color3.png"/>
-<img width="120" align="left" src="Door%20Hub/screenshots/color4.png"/>
-<img width="120" align="left" src="Door%20Hub/screenshots/color5.png"/>
-<img width="120" align="left" src="Door%20Hub/screenshots/color6.png"/>
 
 
